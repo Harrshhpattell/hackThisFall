@@ -1,5 +1,6 @@
 // import React from 'react'
 // import herosectionImage from "../../public/herosectionImage";
+import { Link } from "react-router-dom";
 import herosectionImage from "../../public/herosectionImage.png";
 import StudyLiterature from "../../public/StudyLiterature.png";
 
@@ -63,9 +64,11 @@ const HeroSection = () => {
             change by implementing strategies to minimize waste generation.
           </p>
           <div className="py-10 flex flex-col sm:flex-row items-center gap-5">
-            <button className="bg-black clashDisplay600 text-white px-5 py-2 text-base md:text-lg rounded w-full sm:w-auto border border-black hover:text-black hover:bg-white transition-colors duration-200 ease-in-out">
-              Get Started
-            </button>
+            <Link to="DIYsSuggest" className="w-full md:w-auto">
+              <button className="bg-black clashDisplay600 text-white px-5 py-2 text-base md:text-lg rounded w-full sm:w-auto border border-black hover:text-black hover:bg-white transition-colors duration-200 ease-in-out">
+                Get Started
+              </button>
+            </Link>
             <button className="bg-white text-black clashDisplay600 border border-black px-5 py-2 text-base md:text-lg w-full sm:w-auto rounded flex items-center gap-3 justify-center hover:border-blue-500">
               Find Out More <span>{arrowIcon}</span>
             </button>
@@ -77,11 +80,11 @@ const HeroSection = () => {
       </div>
       <div className="my-5 p-3 sm:p-5 bg-black flex flex-col justify-center">
         <div className="my-5">
-          <h1 className="clashDisplay500 text-white text-center text-base md:text-lg">
+          <h1 className="clashDisplay500 text-white text-center text-base md:text-2xl py-10">
             Explore Sustainable Living Through Creative Upcycling Projects
           </h1>
         </div>
-        <div className="text-[#A5A5A5] text-sm lg:text-[24px] clashDisplay500 w-full">
+        <div className="text-[#A5A5A5] text-sm lg:text-[24px] clashDisplay500 w-full pb-10">
           <ul className="flex flex-wrap  items-center justify-evenly my-5 gap-4">
             <li className="shrink-0">Eco-friendly crafts</li>
             <li className="shrink-0">Creative reuse</li>
@@ -92,7 +95,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="w-[90%] lg:w-4/5 mx-auto my-5 p-3 sm:p-5 relative z-30">
-        <span className="absolute top-[15%] -left-[15%] xl:top-[10%] xl:left-[8%] z-40 w-[150px] md:w-[200px] ">
+        <span className="absolute top-[15%] -left-[15%] xl:top-[10%] xl:left-[8%] z-20 md:z-40 w-[150px] md:w-[200px] ">
           {starFillIcon}
         </span>
         <div className="w-[90%] xl:w-[70%] mx-auto bg-[#D9D9D9] border border-black my-40 relative z-30 ">
@@ -117,7 +120,7 @@ const HeroSection = () => {
         <p className="text-[#a5a5a5] text-[22px] text-center">
           Discover key insights about CCD, our mission, and standout features
         </p>
-        <div className="flex flex-col lg:flex-row items-center justify-center w-[95%] lg:w-[90%] mx-auto my-5 p-3 sm:p-5">
+        <div className="flex flex-col lg:flex-row items-center justify-center w-[95%] lg:w-[85%] mx-auto my-5 p-3 sm:p-5">
           <div className="w-full lg:w-1/2">
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-5 ">
               <div className="text-center border border-[#F9F9F9] rounded p-3 w-[46%] md:w-auto sm:p-[44px]">

@@ -69,27 +69,27 @@ const shopIcon = (
 const navItems = [
   {
     name: "Home",
-    path: "/hackThisFall",
+    path: "",
     icon: "homeIcon",
   },
   {
     name: "About",
-    path: "/about",
+    path: "about",
     icon: "aboutIcon",
   },
   {
     name: "DIYs",
-    path: "./DIYs",
+    path: "DIYs",
     icon: "diysIcon",
   },
   {
     name: "Blogs",
-    path: "./blogs",
+    path: "blogs",
     icon: "blogIcon",
   },
   {
     name: "Shop",
-    path: "./shop",
+    path: "shop",
     icon: "shopIcon",
   },
 ];
@@ -107,7 +107,7 @@ const NavItems = () => {
     <ul className="flex flex-col md:flex-row items-center gap-5 md:gap-[34px]">
       {navItems.map((items, itemsIndex) => (
         <NavLink
-          to={`${items.path}`}
+          to={`/${items.path}`}
           className="text-base text-black clashDisplay600 cursor-pointer flex items-center justify-start gap-5 w-full"
           key={itemsIndex}
         >
