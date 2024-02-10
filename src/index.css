@@ -73,18 +73,18 @@ button:focus-visible {
 
 @font-face {
   font-family: "Clash Display700";
-  src: url("../fonts/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2"),
-    url("../fonts/WEB/fonts/ClashDisplay-Bold.woff") format("woff"); /* Adjust the file path as needed */
+  src: url("../Fonts/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2"),
+    url("../Fonts/WEB/fonts/ClashDisplay-Bold.woff") format("woff"); /* Adjust the file path as needed */
 }
 @font-face {
   font-family: "Clash Display600";
-  src: url("../fonts/WEB/fonts/ClashDisplay-Medium.woff2") format("woff2"),
-    url("../fonts/WEB/fonts/ClashDisplay-Medium.woff") format("woff"); /* Adjust the file path as needed */
+  src: url("../Fonts/WEB/fonts/ClashDisplay-Medium.woff2") format("woff2"),
+    url("../Fonts/WEB/fonts/ClashDisplay-Medium.woff") format("woff"); /* Adjust the file path as needed */
 }
 @font-face {
   font-family: "Clash Display500";
-  src: url("../fonts/WEB/fonts/ClashDisplay-Regular.woff2") format("woff2"),
-    url("../fonts/WEB/fonts/ClashDisplay-Regular.woff") format("woff"); /* Adjust the file path as needed */
+  src: url("../Fonts/WEB/fonts/ClashDisplay-Regular.woff2") format("woff2"),
+    url("../Fonts/WEB/fonts/ClashDisplay-Regular.woff") format("woff"); /* Adjust the file path as needed */
 }
 
 .clashDisplay700 {

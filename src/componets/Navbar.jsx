@@ -48,7 +48,7 @@ const Navbar = () => {
     setOpenMenu((isOpen) => !isOpen);
   };
   return (
-    <div className="w-[90%] lg:w-4/5 mx-auto border border-black my-5 p-3 sm:p-5 rounded shadow-[2px_2px_1px_1px_#1e1e1e;] flex items-center justify-between">
+    <div className="w-[90%] lg:w-4/5 mx-auto border border-black my-5 p-3 sm:p-5 rounded shadow-[2px_2px_1px_1px_#1e1e1e;] flex items-center justify-between sticky top-5 bg-white z-50">
       <div>
         <h1 className="clashDisplay700 text-[34px] font-bold text-black">
           CCD
