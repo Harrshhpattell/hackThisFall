@@ -91,12 +91,15 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="w-[90%] lg:w-4/5 mx-auto my-5 p-3 sm:p-5 relative z-30">
-        <span className="absolute top-20 left-28 z-40">{starFillIcon}</span>
-        <div className="w-[70%] mx-auto bg-[#D9D9D9] border border-black h-[500px] my-40 relative z-30 "></div>
-        <span className="absolute bottom-20 right-28 z-20">
+        <span className="absolute top-[10%] -left-[15%] xl:top-[10%] xl:left-[8%] z-40">
+          {starFillIcon}
+        </span>
+        <div className="w-[90%] xl:w-[70%] mx-auto bg-[#D9D9D9] border border-black h-[300px] md:h-[400px] xl:h-[500px] my-40 relative z-30 "></div>
+        <span className="absolute bottom-[10%] -right-[15%] xl:bottom-20 xl:right-28 z-20">
           {starUnfillIcon}
         </span>
       </div>
+      <div></div>
     </>
   );
 };

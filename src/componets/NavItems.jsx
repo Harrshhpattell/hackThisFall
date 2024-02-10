@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const homeIcon = (
   <svg
-    className="w-6 h-6 text-gray-800 dark:text-white"
+    className="w-6 h-6"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
@@ -14,7 +14,7 @@ const homeIcon = (
 
 const aboutIcon = (
   <svg
-    className="w-6 h-6 text-gray-800 dark:text-white"
+    className="w-6 h-6"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
@@ -26,7 +26,7 @@ const aboutIcon = (
 
 const diysIcon = (
   <svg
-    className="w-6 h-6 text-gray-800 dark:text-white"
+    className="w-6 h-6"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -41,7 +41,7 @@ const diysIcon = (
 
 const blogIcon = (
   <svg
-    className="w-6 h-6 text-gray-800 dark:text-white"
+    className="w-6 h-6"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -56,7 +56,7 @@ const blogIcon = (
 
 const shopIcon = (
   <svg
-    className="w-6 h-6 text-gray-800 dark:text-white"
+    className="w-6 h-6"
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     fill="currentColor"
