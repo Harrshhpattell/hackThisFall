@@ -1,5 +1,6 @@
 // import React from 'react'
 // import herosectionImage from "../../public/herosectionImage";
+import herosectionImage from "../../public/herosectionImage.png";
 
 const arrowIcon = (
   <svg
@@ -38,7 +39,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2">
-          <img src="../../public/herosectionImage.png" alt="img" />
+          <img src={herosectionImage} alt="img" />
         </div>
       </div>
       <div className="w-[90%] lg:w-4/5 mx-auto my-5 p-3 sm:p-5 bg-black flex flex-col justify-center">
