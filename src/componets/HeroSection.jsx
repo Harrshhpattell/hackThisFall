@@ -1,6 +1,7 @@
 // import React from 'react'
 // import herosectionImage from "../../public/herosectionImage";
 import herosectionImage from "../../public/herosectionImage.png";
+import StudyLiterature from "../../public/StudyLiterature.png";
 
 const arrowIcon = (
   <svg
@@ -19,8 +20,8 @@ const arrowIcon = (
 
 const starFillIcon = (
   <svg
-    width="210"
-    height="206"
+    width="auto"
+    height="auto"
     viewBox="0 0 210 206"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -91,15 +92,71 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="w-[90%] lg:w-4/5 mx-auto my-5 p-3 sm:p-5 relative z-30">
-        <span className="absolute top-[10%] -left-[15%] xl:top-[10%] xl:left-[8%] z-40">
+        <span className="absolute top-[15%] -left-[15%] xl:top-[10%] xl:left-[8%] z-40 w-[150px] md:w-[200px] ">
           {starFillIcon}
         </span>
-        <div className="w-[90%] xl:w-[70%] mx-auto bg-[#D9D9D9] border border-black h-[300px] md:h-[400px] xl:h-[500px] my-40 relative z-30 "></div>
-        <span className="absolute bottom-[10%] -right-[15%] xl:bottom-20 xl:right-28 z-20">
+        <div className="w-[90%] xl:w-[70%] mx-auto bg-[#D9D9D9] border border-black my-40 relative z-30 ">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qF58VZOY9cA?si=qPf6mTyBUOPwteE0"
+            title="YouTube video player"
+            className="w-full h-[300px] sm:h-[520px] aspect-video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <span className="absolute bottom-[10%] -right-[0%] xl:bottom-20 xl:right-28 z-20 hidden md:block">
           {starUnfillIcon}
         </span>
       </div>
-      <div></div>
+      <div className="bg-black text-white py-8 px-3 md:px-0">
+        <h1 className="text-[30px] md:text-[44px] text-center clashDisplay600">
+          what you need to know about ccd
+        </h1>
+        <p className="text-[#a5a5a5] text-[22px] text-center">
+          Discover key insights about CCD, our mission, and standout features
+        </p>
+        <div className="flex flex-col lg:flex-row items-center justify-center w-[95%] lg:w-[90%] mx-auto my-5 p-3 sm:p-5">
+          <div className="w-full lg:w-1/2">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-5 ">
+              <div className="text-center border border-[#F9F9F9] rounded p-3 w-[46%] md:w-auto sm:p-[44px]">
+                <h3 className="text-[20px] md:text-[28px] text-[rgb(165,165,165)] clashDisplay500">
+                  2024
+                </h3>
+                <p className="text-base md:text-lg">Founded In</p>
+              </div>
+              <div className="text-center border border-[#F9F9F9] rounded p-3 w-[46%] md:w-auto sm:p-[44px]">
+                <h3 className="text-[20px] md:text-[28px] text-[#a5a5a5] clashDisplay500">
+                  30+
+                </h3>
+                <p className="text-base md:text-lg">Tutorials</p>
+              </div>
+              <div className="text-center border border-[#F9F9F9] rounded p-3 w-[46%] md:w-auto sm:p-[44px]">
+                <h3 className="text-[20px] md:text-[28px] text-[#a5a5a5] clashDisplay500">
+                  50+
+                </h3>
+                <p className="text-base md:text-lg">DIYs Listed</p>
+              </div>
+              <div className="text-center border border-[#F9F9F9] rounded p-3 w-[46%] md:w-auto sm:p-[44px]">
+                <h3 className="text-[20px] md:text-[28px] text-[#a5a5a5] clashDisplay500">
+                  50+
+                </h3>
+                <p className="text-base md:text-lg">Positive Reviews</p>
+              </div>
+              <div className="text-center border border-[#F9F9F9] rounded p-3 sm:p-[44px]">
+                <h3 className="text-[28px] text-[#a5a5a5] clashDisplay500">
+                  80%
+                </h3>
+                <p className="text-lg">More User Friendly</p>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img src={StudyLiterature} alt="" />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

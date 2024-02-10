@@ -73,10 +73,7 @@ const Navbar = () => {
           <h1 className="clashDisplay700 text-[34px] font-bold text-black">
             Hello
           </h1>
-          <button
-            className="text-black border border-black rounded p-[1px]"
-            onClick={() => handleMenu()}
-          >
+          <button className="text-black" onClick={() => handleMenu()}>
             {closeIcon}
           </button>
         </div>
